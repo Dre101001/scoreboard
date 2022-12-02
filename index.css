@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  text-align: center;
+  background: #1B244A;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  width: 400px;
+  height: 500px;
+}
+
+.teams-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.teams {
+  font-size: 70px;
+  color: white;
+  margin: 12px 0 12px 0;
+  height: auto;
+}
+
+.score-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.score {
+  background: #0a0001;
+  font-size: 90px;
+  color: #F94F6D;
+  width: 200px;
+  margin: 20px;
+  font-family: DS-Digital, sans-serif;
+  font-size: 200px;
+  border-radius: 5px;
+  margin: 12px 0 12px 0;
+  height: auto;
+}
+
+button {
+  background: #1B244A;
+  color: white;
+  font-family: DS-Digital, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  width: 40px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #9AABD8;
+  border-radius: 4px;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  margin: 30px 0px 30px 0px;
+}
+
+
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+.reset-btn {
+  width: 100px;
+}
